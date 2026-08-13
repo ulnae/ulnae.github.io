@@ -4,7 +4,6 @@
   "private": true,
   "description": "ulnae 的个人网站 - 基于 VitePress 构建",
   "type": "module",
-  "packageManager": "pnpm@10.0.0",
   "engines": {
     "node": ">=20.0.0"
   },
