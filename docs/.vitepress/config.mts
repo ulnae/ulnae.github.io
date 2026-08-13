@@ -8,6 +8,13 @@ export default defineConfig({
 
   lang: 'zh-CN',
 
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: '/logo.svg' }
+    ]
+  ],
+
   cleanUrls: true,
 
   // 需要 git 支持，本地开发如无 git 请设为 false；CI/生产环境建议设为 true
@@ -44,13 +51,40 @@ export default defineConfig({
       ]
     },
 
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2026 ulnae'
-    },
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2026 ulnae'
+    // },
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          root: { // 如果你想翻译默认语言，请将此处设为 `root`
+            translations: {
+              button: {
+                buttonText: '搜索',
+                buttonAriaLabel: '搜索'
+              },
+              modal: {
+                displayDetails: '显示详细列表',
+                resetButtonTitle: '重置搜索',
+                backButtonTitle: '关闭搜索',
+                noResultsText: '没有结果',
+                footer: {
+                  selectText: '选择',
+                  selectKeyAriaLabel: '输入',
+                  navigateText: '导航',
+                  navigateUpKeyAriaLabel: '上箭头',
+                  navigateDownKeyAriaLabel: '下箭头',
+                  closeText: '关闭',
+                  closeKeyAriaLabel: 'Esc'
+                }
+              }
+            }
+          }
+        }
+      }
     },
 
     editLink: {
@@ -59,7 +93,12 @@ export default defineConfig({
     },
 
     lastUpdated: {
-      text: '最后更新于'
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'long',
+        timeStyle: 'short',
+        hourCycle: 'h24'
+      }
     },
 
     outline: {
