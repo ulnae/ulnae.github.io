@@ -42,5 +42,3 @@ pnpm docs:preview
 
 > [!CAUTION]
 > 行为可能带来的负面影响。
-
-<Button>test</Button>

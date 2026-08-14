@@ -18,7 +18,7 @@ export default defineConfig({
   cleanUrls: true,
 
   // 需要 git 支持，本地开发如无 git 请设为 false；CI/生产环境建议设为 true
-  lastUpdated: true,
+  lastUpdated: false,
 
   ignoreDeadLinks: true,
 
@@ -52,10 +52,10 @@ export default defineConfig({
       ]
     },
 
-    footer: {
-      message: '基于 MIT 许可发布',
-      copyright: '版权所有 © 2026-至今 三文鱼'
-    },
+    // footer: {
+    //   message: '基于 MIT 许可发布',
+    //   copyright: '版权所有 © 2026-至今 三文鱼'
+    // },
 
     search: {
       provider: 'local',
@@ -103,7 +103,7 @@ export default defineConfig({
     },
 
     outline: {
-      label: '本页目录'
+      label: '页面导航'
     },
 
     docFooter: {
@@ -127,5 +127,5 @@ export default defineConfig({
     },
     lineNumbers: true
 
-  }
+  },
 })

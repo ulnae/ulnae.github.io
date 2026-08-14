@@ -46,3 +46,34 @@ features:
     rel: external
     target: _blank
 ---
+
+<script setup>
+import { ref, computed, onMounted, onUnmounted } from 'vue';
+
+const now = ref(new Date());
+let timer = null;
+
+// 一行搞定格式化
+const formattedTime = computed(() => 
+  now.value.toLocaleString('zh-CN', { 
+    hour12: false,           // 24小时制
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  }).replace(/\//g, '-')     // 将 '/' 替换为 '-'（可选）
+);
+
+onMounted(() => {
+  timer = setInterval(() => { now.value = new Date(); }, 1000);
+});
+onUnmounted(() => { clearInterval(timer); });
+
+</script>
+
+
+::: tip 北京时间
+{{formattedTime}}
+:::
