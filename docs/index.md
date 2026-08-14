@@ -31,18 +31,18 @@ features:
     linkText: Learn more
     rel: external
     target: _blank
-  # - icon: 🛠️
-  #   title: Simple and minimal, always
-  #   details: Lorem ipsum...
-  #   link: /guide/getting-started
-  #   linkText: Learn more
-  #   rel: external
-  #   target: _blank
-  # - icon: 🛠️
-  #   title: Simple and minimal, always
-  #   details: Lorem ipsum...
-  #   link: /guide/getting-started
-  #   linkText: Learn more
-  #   rel: external
-  #   target: _blank
+  - icon: 🗺️
+    title: Map
+    details: Ready to go? 
+    link: https://ulnae.github.io/readme/#/Map
+    linkText: Learn more
+    rel: external
+    target: _blank
+  - icon: 🐛
+    title: Repl
+    details: Open Debugger
+    link: https://ulnae.github.io/readme/#/Repl
+    linkText: Learn more
+    rel: external
+    target: _blank
 ---
