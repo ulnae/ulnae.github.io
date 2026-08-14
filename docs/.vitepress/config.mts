@@ -29,10 +29,10 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
 
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/ulnae' },
-    //   { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
-    // ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/ulnae' },
+      { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
+    ],
 
     nav: [
       { text: '首页', link: '/' },
@@ -52,10 +52,10 @@ export default defineConfig({
       ]
     },
 
-    // footer: {
-    //   message: 'Released under the MIT License.',
-    //   copyright: 'Copyright © 2026 ulnae'
-    // },
+    footer: {
+      message: '基于 MIT 许可发布',
+      copyright: '版权所有 © 2026-至今 三文鱼'
+    },
 
     search: {
       provider: 'local',

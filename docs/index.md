@@ -17,32 +17,32 @@ hero:
       link: /about
 
 features:
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-    link: /guide/getting-started
+  - icon: 📷
+    title: Vlog
+    details: See what I’ve been up to!
+    link: https://ulnae.github.io/vlog/
     linkText: Learn more
     rel: external
     target: _blank
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-    link: /guide/getting-started
+  - icon: 🎨
+    title: Excalidraw
+    details: Unleash your creativity!
+    link: https://ulnae.github.io/micro-react/#/excalidraw
     linkText: Learn more
     rel: external
     target: _blank
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-    link: /guide/getting-started
-    linkText: Learn more
-    rel: external
-    target: _blank
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-    link: /guide/getting-started
-    linkText: Learn more
-    rel: external
-    target: _blank
+  # - icon: 🛠️
+  #   title: Simple and minimal, always
+  #   details: Lorem ipsum...
+  #   link: /guide/getting-started
+  #   linkText: Learn more
+  #   rel: external
+  #   target: _blank
+  # - icon: 🛠️
+  #   title: Simple and minimal, always
+  #   details: Lorem ipsum...
+  #   link: /guide/getting-started
+  #   linkText: Learn more
+  #   rel: external
+  #   target: _blank
 ---
