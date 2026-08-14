@@ -29,9 +29,10 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/ulnae' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/ulnae' },
+    //   { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
+    // ],
 
     nav: [
       { text: '首页', link: '/' },
@@ -117,5 +118,14 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     externalLinkIcon: true
+  },
+
+  markdown: {
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoad: true,
+    },
+    lineNumbers: true
+
   }
 })
