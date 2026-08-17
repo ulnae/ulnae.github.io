@@ -37,6 +37,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '鱼类', link: '/fish/started' },
+      { text: '鱼钩', link: '/hook/started' },
       { text: '关于', link: '/about' }
     ],
 
@@ -58,7 +59,24 @@ export default defineConfig({
             { text: '其余海洋类群与外来种', link: '/fish/10' },
           ]
         }
-      ]
+      ],
+      '/hook/': [
+        {
+          text: '鱼钩',
+          items: [
+            { text: '鱼钩类型全面分析大全', link: '/hook/started' },
+            { text: '海钓类鱼钩', link: '/hook/01' },
+            { text: '淡水钓类鱼钩', link: '/hook/02' },
+            { text: '路亚钓类鱼钩', link: '/hook/03' },
+            { text: '矶钓类鱼钩', link: '/hook/04' },
+            { text: '飞钓类鱼钩', link: '/hook/05' },
+            { text: '筏钓类鱼钩', link: '/hook/06' },
+            { text: '特殊用途鱼钩', link: '/hook/07' },
+            { text: '鱼钩规格对照表', link: '/hook/compare' },
+            { text: '选钩速查指南', link: '/hook/guide' },
+          ]
+        }
+      ],
     },
 
     // footer: {
