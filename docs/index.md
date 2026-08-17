@@ -2,16 +2,16 @@
 layout: home
 
 hero:
-  name: "ulnae"
-  text: "个人网站"
-  tagline: 记录技术、生活与思考
+  name: ulnae
+  text: 个人网站
+  tagline: 一个爱钓鱼的切图仔
   image:
     src: /image/Eug.png
     alt: 三文鱼
   actions:
     - theme: brand
       text: 开始阅读
-      link: /guide/getting-started
+      link: /fish/started
     - theme: alt
       text: 关于我
       link: /about

@@ -46,16 +46,16 @@ export default defineConfig({
           text: '鱼类',
           items: [
             { text: '中国鱼类完整物种名录', link: '/fish/started' },
-            { text: '无颌与软骨鱼纲', link: '/fish/01_无颌与软骨鱼纲' },
-            { text: '原始类群与鲱鳗类', link: '/fish/02_原始类群与鲱鳗类' },
-            { text: '鲤形目_鲤科(上)', link: '/fish/03_鲤形目_鲤科(上)' },
-            { text: '鲤形目_鲤科(下)与鳅类', link: '/fish/04_鲤形目_鲤科(下)与鳅类' },
-            { text: '鲇鲑等淡水目', link: '/fish/05_鲇鲑等淡水目' },
-            { text: '鲈形目_海洋(一)', link: '/fish/06_鲈形目_海洋(一)' },
-            { text: '鲈形目_海洋(二)', link: '/fish/07_鲈形目_海洋(二)' },
-            { text: '鲈形目_淡水与鳜鳢类', link: '/fish/08_鲈形目_淡水与鳜鳢类' },
-            { text: '鲀鲽鮟鱇等特化类', link: '/fish/09_鲀鲽鮟鱇等特化类' },
-            { text: '其余海洋类群与外来种', link: '/fish/10_其余海洋类群与外来种' },
+            { text: '无颌与软骨鱼纲', link: '/fish/01' },
+            { text: '原始类群与鲱鳗类', link: '/fish/02' },
+            { text: '鲤形目_鲤科(上)', link: '/fish/03' },
+            { text: '鲤形目_鲤科(下)与鳅类', link: '/fish/04' },
+            { text: '鲇鲑等淡水目', link: '/fish/05' },
+            { text: '鲈形目_海洋(一)', link: '/fish/06' },
+            { text: '鲈形目_海洋(二)', link: '/fish/07' },
+            { text: '鲈形目_淡水与鳜鳢类', link: '/fish/08' },
+            { text: '鲀鲽鮟鱇等特化类', link: '/fish/09' },
+            { text: '其余海洋类群与外来种', link: '/fish/10' },
           ]
         }
       ]
@@ -116,8 +116,8 @@ export default defineConfig({
     },
 
     docFooter: {
-      prev: '上一页',
-      next: '下一页'
+      prev: '上一篇',
+      next: '下一篇'
     },
 
     returnToTopLabel: '回到顶部',
