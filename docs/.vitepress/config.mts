@@ -36,17 +36,26 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/guide/getting-started' },
+      { text: '鱼类', link: '/fish/started' },
       { text: '关于', link: '/about' }
     ],
 
     sidebar: {
-      '/guide/': [
+      '/fish/': [
         {
-          text: '指南',
+          text: '鱼类',
           items: [
-            { text: '快速开始', link: '/guide/getting-started' },
-            { text: '项目结构', link: '/guide/project-structure' }
+            { text: '中国鱼类完整物种名录', link: '/fish/started' },
+            { text: '无颌与软骨鱼纲', link: '/fish/01_无颌与软骨鱼纲' },
+            { text: '原始类群与鲱鳗类', link: '/fish/02_原始类群与鲱鳗类' },
+            { text: '鲤形目_鲤科(上)', link: '/fish/03_鲤形目_鲤科(上)' },
+            { text: '鲤形目_鲤科(下)与鳅类', link: '/fish/04_鲤形目_鲤科(下)与鳅类' },
+            { text: '鲇鲑等淡水目', link: '/fish/05_鲇鲑等淡水目' },
+            { text: '鲈形目_海洋(一)', link: '/fish/06_鲈形目_海洋(一)' },
+            { text: '鲈形目_海洋(二)', link: '/fish/07_鲈形目_海洋(二)' },
+            { text: '鲈形目_淡水与鳜鳢类', link: '/fish/08_鲈形目_淡水与鳜鳢类' },
+            { text: '鲀鲽鮟鱇等特化类', link: '/fish/09_鲀鲽鮟鱇等特化类' },
+            { text: '其余海洋类群与外来种', link: '/fish/10_其余海洋类群与外来种' },
           ]
         }
       ]
