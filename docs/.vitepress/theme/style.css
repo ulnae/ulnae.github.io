@@ -13,3 +13,12 @@
       #7c3aed 30%,
       #d97706);
 }
+
+/**
+ * Component: table
+ * -------------------------------------------------------------------------- */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
