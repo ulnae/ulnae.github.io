@@ -39,6 +39,7 @@ export default defineConfig({
       { text: '鱼类', link: '/fish/started' },
       { text: '鱼钩', link: '/hook/started' },
       { text: '鱼线', link: '/line/started' },
+      { text: '鱼杆', link: '/pole/started' },
       { text: '关于', link: '/about' }
     ],
 
@@ -90,6 +91,19 @@ export default defineConfig({
             { text: '筏钓与冰钓鱼线', link: '/line/05' },
             { text: '矶钓鱼线', link: '/line/06' },
             { text: '鱼线材质与编数', link: '/line/07' },
+          ]
+        }
+      ],
+      '/pole/': [
+        {
+          text: '鱼杆',
+          items: [
+            { text: '鱼竿类型总览汇总', link: '/pole/started' },
+            { text: '淡水钓鱼竿', link: '/pole/01' },
+            { text: '海钓鱼竿', link: '/pole/02' },
+            { text: '路亚钓鱼竿', link: '/pole/03' },
+            { text: '飞钓与冰钓鱼竿', link: '/pole/04' },
+            { text: '筏钓及特殊钓法鱼竿', link: '/pole/05' },
           ]
         }
       ],
