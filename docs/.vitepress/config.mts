@@ -38,6 +38,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '鱼类', link: '/fish/started' },
       { text: '鱼钩', link: '/hook/started' },
+      { text: '鱼线', link: '/line/started' },
       { text: '关于', link: '/about' }
     ],
 
@@ -74,6 +75,21 @@ export default defineConfig({
             { text: '特殊用途鱼钩', link: '/hook/07' },
             { text: '鱼钩规格对照表', link: '/hook/compare' },
             { text: '选钩速查指南', link: '/hook/guide' },
+          ]
+        }
+      ],
+      '/line/': [
+        {
+          text: '鱼线',
+          items: [
+            { text: '鱼线总览', link: '/line/started' },
+            { text: '台钓鱼线', link: '/line/01' },
+            { text: '路亚钓鱼线', link: '/line/02' },
+            { text: '海钓鱼线', link: '/line/03' },
+            { text: '飞钓鱼线', link: '/line/04' },
+            { text: '筏钓与冰钓鱼线', link: '/line/05' },
+            { text: '矶钓鱼线', link: '/line/06' },
+            { text: '鱼线材质与编数', link: '/line/07' },
           ]
         }
       ],
