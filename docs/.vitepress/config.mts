@@ -35,11 +35,10 @@ export default defineConfig({
     ],
 
     nav: [
-      { text: '首页', link: '/' },
-      { text: '鱼类', link: '/fish/started' },
-      { text: '鱼钩', link: '/hook/started' },
-      { text: '鱼线', link: '/line/started' },
-      { text: '鱼杆', link: '/pole/started' },
+      { text: '鱼类', link: '/fish/started', activeMatch: '/fish/' },
+      { text: '鱼钩', link: '/hook/started', activeMatch: '/hook/' },
+      { text: '鱼线', link: '/line/started', activeMatch: '/line/' },
+      { text: '鱼杆', link: '/pole/started', activeMatch: '/pole/' },
       { text: '关于', link: '/about' }
     ],
 
