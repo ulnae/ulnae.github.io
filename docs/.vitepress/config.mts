@@ -11,7 +11,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', href: '/logo.svg' }
+      { rel: 'icon', href: '/favicon.svg' }
     ]
   ],
 
@@ -28,8 +28,8 @@ export default defineConfig({
 
   themeConfig: {
     logo: {
-      light: '/logo.svg',
-      dark: '/logo.svg',
+      light: '/logo/light.svg',
+      dark: '/logo/dark.svg',
       alt: 'ulnae'
     },
 
