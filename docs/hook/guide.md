@@ -44,4 +44,4 @@
 
 ## 绑钩方法参考
 
-![鱼钩绑线方法示意（来源：维基百科）](/hook/how_to_tie_hook.jpg)
+![鱼钩绑线方法示意（来源：维基百科）](/hook/guide/how_to_tie_hook.jpg)

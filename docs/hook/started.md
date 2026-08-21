@@ -20,6 +20,6 @@
 | **倒刺**     | 钩尖下方的逆向小刺，防止脱钩        |
 | **钩门**     | 钩尖到钩柄的距离，决定能吞入的鱼嘴大小   |
 
-![鱼钩解剖结构图（来源：维基百科）](/hook/hook_anatomy.jpg)
+![鱼钩解剖结构图（来源：维基百科）](/hook/started/hook_anatomy.jpg)
 
-![鱼钩钩眼类型对比（来源：维基百科）](/hook/hook_eyes.jpg)
+![鱼钩钩眼类型对比（来源：维基百科）](/hook/started/hook_eyes.jpg)
