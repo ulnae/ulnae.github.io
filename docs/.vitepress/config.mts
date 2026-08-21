@@ -27,7 +27,11 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: {
+      light: '/logo.svg',
+      dark: '/logo.svg',
+      alt: 'ulnae'
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ulnae' },
