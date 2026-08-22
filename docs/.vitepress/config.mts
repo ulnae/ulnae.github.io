@@ -43,6 +43,7 @@ export default defineConfig({
       { text: '鱼钩', link: '/hook/started', activeMatch: '/hook/' },
       { text: '鱼线', link: '/line/started', activeMatch: '/line/' },
       { text: '鱼竿', link: '/pole/started', activeMatch: '/pole/' },
+      { text: '渔轮', link: '/ship/started', activeMatch: '/ship/' },
       { text: '关于', link: '/about' }
     ],
 
@@ -107,6 +108,19 @@ export default defineConfig({
             { text: '路亚钓鱼竿', link: '/pole/03' },
             { text: '飞钓与冰钓鱼竿', link: '/pole/04' },
             { text: '筏钓及特殊钓法鱼竿', link: '/pole/05' },
+          ]
+        }
+      ],
+      '/ship/': [
+        {
+          text: '渔轮',
+          items: [
+            { text: '渔轮类型总览汇总', link: '/ship/started' },
+            { text: '淡水钓渔轮', link: '/ship/01' },
+            { text: '海钓渔轮', link: '/ship/02' },
+            { text: '路亚钓渔轮', link: '/ship/03' },
+            { text: '飞钓与冰钓渔轮', link: '/ship/04' },
+            { text: '特殊钓法与传统渔轮', link: '/ship/05' },
           ]
         }
       ],
