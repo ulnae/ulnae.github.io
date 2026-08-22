@@ -44,6 +44,7 @@ export default defineConfig({
       { text: '鱼线', link: '/line/started', activeMatch: '/line/' },
       { text: '鱼竿', link: '/pole/started', activeMatch: '/pole/' },
       { text: '渔轮', link: '/ship/started', activeMatch: '/ship/' },
+      { text: '鱼漂', link: '/float/started', activeMatch: '/float/' },
       { text: '关于', link: '/about/started', activeMatch: '/about/' }
     ],
 
@@ -121,6 +122,19 @@ export default defineConfig({
             { text: '路亚钓渔轮', link: '/ship/03' },
             { text: '飞钓与冰钓渔轮', link: '/ship/04' },
             { text: '特殊钓法与传统渔轮', link: '/ship/05' },
+          ]
+        }
+      ],
+      '/float/': [
+        {
+          text: '文档目录',
+          items: [
+            { text: '鱼漂总览', link: '/float/started' },
+            { text: '台钓与竞技立漂', link: '/float/01' },
+            { text: '传统钓漂', link: '/float/02' },
+            { text: '远投与大水面浮漂', link: '/float/03' },
+            { text: '矶钓浮标', link: '/float/04' },
+            { text: '特殊用途漂', link: '/float/05' },
           ]
         }
       ],

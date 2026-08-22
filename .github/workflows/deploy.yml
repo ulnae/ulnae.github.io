@@ -47,6 +47,11 @@ jobs:
         run: pnpm install # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: pnpm docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+        env:
+          VITE_GISCUS_REPO: ${{ secrets.VITE_GISCUS_REPO }}
+          VITE_GISCUS_REPO_ID: ${{ secrets.VITE_GISCUS_REPO_ID }}
+          VITE_GISCUS_CATEGORY: ${{ secrets.VITE_GISCUS_CATEGORY }}
+          VITE_GISCUS_CATEGORY_ID: ${{ secrets.VITE_GISCUS_CATEGORY_ID }}
       - name: Create .nojekyll
         run: touch docs/public/.nojekyll
       - name: Upload artifact
