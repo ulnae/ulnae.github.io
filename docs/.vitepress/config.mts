@@ -42,7 +42,7 @@ export default defineConfig({
       { text: '鱼类', link: '/fish/started', activeMatch: '/fish/' },
       { text: '鱼钩', link: '/hook/started', activeMatch: '/hook/' },
       { text: '鱼线', link: '/line/started', activeMatch: '/line/' },
-      { text: '鱼杆', link: '/pole/started', activeMatch: '/pole/' },
+      { text: '鱼竿', link: '/pole/started', activeMatch: '/pole/' },
       { text: '关于', link: '/about' }
     ],
 
@@ -99,7 +99,7 @@ export default defineConfig({
       ],
       '/pole/': [
         {
-          text: '鱼杆',
+          text: '鱼竿',
           items: [
             { text: '鱼竿类型总览汇总', link: '/pole/started' },
             { text: '淡水钓鱼竿', link: '/pole/01' },
