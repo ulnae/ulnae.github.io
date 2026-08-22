@@ -44,15 +44,15 @@ export default defineConfig({
       { text: '鱼线', link: '/line/started', activeMatch: '/line/' },
       { text: '鱼竿', link: '/pole/started', activeMatch: '/pole/' },
       { text: '渔轮', link: '/ship/started', activeMatch: '/ship/' },
-      { text: '关于', link: '/about' }
+      { text: '关于', link: '/about/started', activeMatch: '/about/' }
     ],
 
     sidebar: {
       '/fish/': [
         {
-          text: '鱼类',
+          text: '文档目录',
           items: [
-            { text: '中国鱼类完整物种名录', link: '/fish/started' },
+            { text: '鱼类总览', link: '/fish/started' },
             { text: '无颌与软骨鱼纲', link: '/fish/01' },
             { text: '原始类群与鲱鳗类', link: '/fish/02' },
             { text: '鲤形目_鲤科(上)', link: '/fish/03' },
@@ -68,9 +68,9 @@ export default defineConfig({
       ],
       '/hook/': [
         {
-          text: '鱼钩',
+          text: '文档目录',
           items: [
-            { text: '鱼钩类型全面分析大全', link: '/hook/started' },
+            { text: '鱼钩总览', link: '/hook/started' },
             { text: '海钓类鱼钩', link: '/hook/01' },
             { text: '淡水钓类鱼钩', link: '/hook/02' },
             { text: '路亚钓类鱼钩', link: '/hook/03' },
@@ -85,7 +85,7 @@ export default defineConfig({
       ],
       '/line/': [
         {
-          text: '鱼线',
+          text: '文档目录',
           items: [
             { text: '鱼线总览', link: '/line/started' },
             { text: '台钓鱼线', link: '/line/01' },
@@ -100,9 +100,9 @@ export default defineConfig({
       ],
       '/pole/': [
         {
-          text: '鱼竿',
+          text: '文档目录',
           items: [
-            { text: '鱼竿类型总览汇总', link: '/pole/started' },
+            { text: '鱼竿总览', link: '/pole/started' },
             { text: '淡水钓鱼竿', link: '/pole/01' },
             { text: '海钓鱼竿', link: '/pole/02' },
             { text: '路亚钓鱼竿', link: '/pole/03' },
@@ -113,9 +113,9 @@ export default defineConfig({
       ],
       '/ship/': [
         {
-          text: '渔轮',
+          text: '文档目录',
           items: [
-            { text: '渔轮类型总览汇总', link: '/ship/started' },
+            { text: '渔轮总览', link: '/ship/started' },
             { text: '淡水钓渔轮', link: '/ship/01' },
             { text: '海钓渔轮', link: '/ship/02' },
             { text: '路亚钓渔轮', link: '/ship/03' },
@@ -124,6 +124,14 @@ export default defineConfig({
           ]
         }
       ],
+      '/about/': [
+        {
+          text: '文档目录',
+          items: [
+            { text: '关于本站', link: '/about/started' },
+          ]
+        }
+      ]
     },
 
     // footer: {
@@ -200,7 +208,7 @@ export default defineConfig({
       // 默认禁用；设置为 true 可为所有图片启用懒加载。
       lazyLoad: true,
     },
-    lineNumbers: true
+    // lineNumbers: true
 
   },
 })
