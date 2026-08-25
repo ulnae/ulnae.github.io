@@ -1,9 +1,11 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
-import type { Theme } from 'vitepress'
+import { h, nextTick, watch } from 'vue'
+import { useRoute, type Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import './style.css'
 import Giscus from './components/Giscus.vue';
+import mediumZoom from 'medium-zoom';
+import './style.css'
+import './medium-zoom.css';
 
 export default {
   extends: DefaultTheme,
@@ -15,5 +17,18 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
-  }
+  },
+  setup() {
+    const route = useRoute();
+    watch(
+      () => route.path,
+      () => nextTick(() => {
+        mediumZoom('.main img', {
+          // background: 'var(--vp-c-bg)',
+          background: 'transparent',
+        });
+      }),
+      { immediate: true }
+    )
+  },
 } satisfies Theme

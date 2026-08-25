@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { ImagePreviewPlugin } from 'vitepress-plugin-image-preview'
 export default defineConfig({
   base: '/',
 
@@ -228,7 +227,6 @@ export default defineConfig({
 
   vite: {
     plugins: [
-      ImagePreviewPlugin()
     ]
   }
 })
