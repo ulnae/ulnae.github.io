@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: ulnae
-  text: 空军基地
+  name: 空军基地
+  text: ulnae
   tagline: 一个爱钓鱼的切图仔
   image:
     src: /image/fish.svg
