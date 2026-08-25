@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: ulnae
-  text: 个人网站
+  text: 空军基地
   tagline: 一个爱钓鱼的切图仔
   image:
     src: /image/fish.svg
