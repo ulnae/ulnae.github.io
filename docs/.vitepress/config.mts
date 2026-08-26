@@ -227,6 +227,25 @@ export default defineConfig({
 
   vite: {
     plugins: [
-    ]
+    ],
+    build: {
+      rollupOptions: {
+        output: {
+          // 配置代码分割
+          codeSplitting: {
+            groups: [
+              {
+                test: /node_modules\/medium-zoom/,
+                name: 'medium-zoom',
+              },
+              {
+                test: /node_modules\/@giscus\/vue/,
+                name: 'giscus',
+              },
+            ],
+          },
+        },
+      },
+    },
   }
 })
