@@ -31,14 +31,15 @@ const scriptTags = [
 function initVantaRings() {
   effect = window.VANTA.RINGS({
     el: ".is-home",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    // minHeight: 200.00,
-    // minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    backgroundAlpha: 0.00,
+    mouseControls: true, // 是否允许通过鼠标移动来控制相机视角
+    touchControls: true, // 是否允许通过触摸屏上的手势来控制相机视角
+    gyroControls: true, // 是否允许通过设备的陀螺仪来控制相机视角
+    // minHeight: 200.00, // 最小高度
+    // minWidth: 200.00, // 最小宽度
+    scale: 1.00, // 桌面端动画的缩放比例
+    scaleMobile: 1.00, // 移动端动画的缩放比例
+    backgroundAlpha: 0.00, // 背景透明度
+    speed: 6, // 动画速度
     THREE: window.THREE
   })
 }
