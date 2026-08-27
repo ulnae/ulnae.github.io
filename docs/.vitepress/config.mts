@@ -45,9 +45,9 @@ export default defineConfig({
       { text: '鱼类', link: '/fish/started', activeMatch: '/fish/' },
       { text: '鱼钩', link: '/hook/started', activeMatch: '/hook/' },
       { text: '鱼线', link: '/line/started', activeMatch: '/line/' },
-      { text: '鱼竿', link: '/pole/started', activeMatch: '/pole/' },
-      { text: '渔轮', link: '/ship/started', activeMatch: '/ship/' },
       { text: '鱼漂', link: '/float/started', activeMatch: '/float/' },
+      { text: '渔轮', link: '/ship/started', activeMatch: '/ship/' },
+      { text: '鱼竿', link: '/pole/started', activeMatch: '/pole/' },
       { text: '关于', link: '/about/started', activeMatch: '/about/' }
     ],
 
