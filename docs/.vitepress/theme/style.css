@@ -2,7 +2,17 @@
  * Customize default theme styling by overriding CSS variables:
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
+/* 应用于需要隐藏滚动条的容器 */
+*{
+    overflow-y: scroll;  /* 或 auto，确保滚动功能正常 */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ 和旧版 Edge */
+}
 
+/* Chrome, Safari, 新版 Edge, Opera 等 WebKit 内核浏览器 */
+*::-webkit-scrollbar {
+    display: none; /* 隐藏滚动条 */
+}
 
 /**
  * Component: Home
