@@ -15,10 +15,6 @@ export default defineConfig({
     [
       'link',
       { rel: 'icon', href: '/favicon.svg' }
-    ],
-    [
-      'script',
-      { defer: 'defer', src: 'https://events.vercount.one/js' }
     ]
   ],
 

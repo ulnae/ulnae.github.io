@@ -53,11 +53,3 @@ onUnmounted(() => {
   effect = null
 })
 </script>
-
-
-
-<div class="vercount-container">
-  <span id="vercount_value_page_pv">Loading</span>|
-  <span id="vercount_value_site_pv">Loading</span>|
-  <span id="vercount_value_site_uv">Loading</span>
-</div>
