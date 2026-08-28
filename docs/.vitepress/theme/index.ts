@@ -16,6 +16,18 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    router.onBeforeRouteChange = (to) => {
+      console.log('onBeforeRouteChange：', to)
+    }
+    router.onBeforePageLoad = (to) => {
+      console.log('onBeforePageLoad：', to)
+    }
+    router.onAfterPageLoad = (to) => {
+      console.log('onAfterPageLoad：', to)
+    }
+    router.onAfterRouteChange = (to) => {
+      console.log('onAfterRouteChange：', to)
+    }
     // ...
   },
   setup() {
