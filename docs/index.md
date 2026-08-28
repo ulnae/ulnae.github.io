@@ -53,3 +53,8 @@ onUnmounted(() => {
   effect = null
 })
 </script>
+
+<!-- https://www.kirilv.com/canvas-confetti/ -->
+
+<!-- https://count.getloli.com/ -->
+![ulnae](https://count.getloli.com/@ulnae?name=ulnae&theme=random&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto)
