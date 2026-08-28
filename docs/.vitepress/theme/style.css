@@ -14,6 +14,7 @@
       #d97706);
 } */
 :root {
+
   /* 1. 导航栏毛玻璃效果 (非首页顶部状态) */
   .VPNavBar:not(.has-sidebar):not(.home.top) {
     background-color: rgba(255, 255, 255, 0);
@@ -53,4 +54,22 @@
   display: block;
   overflow-x: auto;
   white-space: nowrap;
+}
+
+img[alt="getloli"] {
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  /* 紧贴屏幕底部 */
+  left: 50%;
+  /* 从左侧50%开始 */
+  transform: translateX(-50%);
+  /* 向左移动自身宽度的50%，完成居中 */
+
+  /* 可选：防止图片溢出或过大 */
+  max-width: 100%;
+  max-height: 80vh;
+  /* 限制高度为视口高度的80%，留出呼吸空间 */
+  z-index: 999;
+  /* 避免被其他元素遮挡 */
 }
