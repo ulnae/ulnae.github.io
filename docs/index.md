@@ -73,6 +73,3 @@ onMounted(() => {
 })
 
 </script>
-
-<!-- https://count.getloli.com/ -->
-![getloli](https://count.getloli.com/@ulnae?name=ulnae&padding=7&offset=0&align=center&scale=0.8&pixelated=1&darkmode=auto)

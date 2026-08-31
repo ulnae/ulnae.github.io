@@ -151,10 +151,11 @@ export default defineConfig({
       ]
     },
 
-    // footer: {
-    //   message: '基于 MIT 许可发布',
-    //   copyright: '版权所有 © 2026-至今 三文鱼'
-    // },
+    // https://count.getloli.com/
+    footer: {
+      message: '<img src="https://count.getloli.com/@ulnae?name=ulnae&padding=7&offset=0&align=center&scale=0.6&pixelated=1&darkmode=auto" alt="getloli" />',
+      copyright: '版权所有 © 2026-至今 ulnae'
+    },
 
     search: {
       provider: 'local',
