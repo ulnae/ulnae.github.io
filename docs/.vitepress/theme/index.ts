@@ -12,7 +12,45 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      // layout: 'doc'
+      // 'doc-top':()=>h('div','doc-top'),
+      // 'doc-bottom':()=>h('div','doc-bottom'),
+      // 'doc-footer-before':()=>h('div','doc-footer-before'),
+      // 'doc-before':()=>h('div','doc-before'),
       'doc-after': () => h(Giscus),
+      // 'sidebar-nav-before':()=>h('div','sidebar-nav-before'),
+      // 'sidebar-nav-after':()=>h('div','sidebar-nav-after'),
+      // 'aside-top':()=>h('div','aside-top'),
+      // 'aside-bottom':()=>h('div','aside-bottom'),
+      // 'aside-outline-before':()=>h('div','aside-outline-before'),
+      // 'aside-outline-after':()=>h('div','aside-outline-after'),
+      // 'aside-ads-before':()=>h('div','aside-ads-before'),
+      // 'aside-ads-after':()=>h('div','aside-ads-after'),
+      // layout: 'home'
+      // 'home-hero-before':()=>h('div','home-hero-before'),
+      // 'home-hero-info-before':()=>h('div','home-hero-info-before'),
+      // 'home-hero-info':()=>h('div','home-hero-info'),
+      // 'home-hero-info-after':()=>h('div','home-hero-info-after'),
+      // 'home-hero-actions-before-actions':()=>h('div','home-hero-actions-before-actions'),
+      // 'home-hero-actions-after':()=>h('div','home-hero-actions-after'),
+      // 'home-hero-image':()=>h('div','home-hero-image'),
+      // 'home-hero-after':()=>h('div','home-hero-after'),
+      // 'home-features-before':()=>h('div','home-features-before'),
+      // 'home-features-after':()=>h('div','home-features-after'),
+      // layout: 'page'
+      // 'page-top':()=>h('div','page-top'),
+      // 'page-bottom':()=>h('div','page-bottom'),
+      // 404
+      // 'not-found':()=>h('div','not-found'),
+      // 总是启用
+      // 'layout-top':()=>h('div','layout-top'),
+      // 'layout-bottom':()=>h('div','layout-bottom'),
+      // 'nav-bar-title-before':()=>h('div','nav-bar-title-before'),
+      // 'nav-bar-title-after':()=>h('div','nav-bar-title-after'),
+      // 'nav-bar-content-before':()=>h('div','nav-bar-content-before'),
+      // 'nav-bar-content-after':()=>h('div','nav-bar-content-after'),
+      // 'nav-screen-content-before':()=>h('div','nav-screen-content-before'),
+      // 'nav-screen-content-after':()=>h('div','nav-screen-content-after'),
     })
   },
   enhanceApp({ app, router, siteData }) {
