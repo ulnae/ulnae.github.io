@@ -19,15 +19,12 @@
   .VPNavBar:not(.has-sidebar):not(.home.top) {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(10px);
-    /* 兼容 Safari */
-    -webkit-backdrop-filter: blur(10px);
   }
 
   /* 2. 搜索框透明毛玻璃 */
   .DocSearch-Button {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
   }
 
   /* 3. 文档页导航中间区域透明 (屏幕宽度 >= 960px) */
@@ -35,7 +32,6 @@
     .VPNavBar:not(.home.top) .content-body {
       background-color: rgba(255, 255, 255, 0);
       backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
     }
   }
 
@@ -43,7 +39,6 @@
   .VPLocalNav {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
   }
 }
 
