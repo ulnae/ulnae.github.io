@@ -4,12 +4,7 @@ import { useRoute, type Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Giscus from './components/Giscus.vue';
 // import mediumZoom from 'medium-zoom';
-import { 
-  NolebaseEnhancedReadabilitiesMenu, 
-  NolebaseEnhancedReadabilitiesScreenMenu, 
-} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
-import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
 import './style.css'
 import './medium-zoom.css';
@@ -18,10 +13,6 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // 为较宽的屏幕的导航栏添加阅读增强菜单
-      'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
-      // 为较窄的屏幕（通常是小于 iPad Mini）添加阅读增强菜单
-      'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       // layout: 'doc'
       // 'doc-top':()=>h('div','doc-top'),
