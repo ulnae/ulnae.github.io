@@ -42,6 +42,7 @@ export default defineConfig({
     ],
 
     nav: [
+      { text: '标点', link: '/marker/index'},
       { text: '鱼类', link: '/fish/started', activeMatch: '/fish/' },
       { text: '鱼钩', link: '/hook/started', activeMatch: '/hook/' },
       { text: '鱼线', link: '/line/started', activeMatch: '/line/' },
