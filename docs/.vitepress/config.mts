@@ -36,10 +36,10 @@ export default defineConfig({
       alt: 'ulnae'
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/ulnae' },
-      { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/ulnae' },
+    //   { icon: 'juejin', link: 'https://juejin.cn/user/3650034336020430' },
+    // ],
 
     nav: [
       { text: '标点', link: '/marker/index'},
