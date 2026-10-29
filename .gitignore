@@ -30,3 +30,5 @@ pnpm-debug.log*
 
 # VitePress cache
 docs/.vitepress/cache
+
+.workbuddy

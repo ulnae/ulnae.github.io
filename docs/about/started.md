@@ -1,7 +1,7 @@
 # 关于本站
 
 > 一个爱钓鱼的切图仔，用代码记录钓鱼装备与鱼类知识。
-> 本站基于 VitePress 构建，内容涵盖鱼类物种名录、鱼钩、鱼线、鱼竿、渔轮、鱼漂六大知识体系。
+> 内容涵盖鱼类物种名录、鱼钩、鱼线、鱼竿、渔轮、鱼漂六大知识体系。
 
 
 ## 一、站点介绍
@@ -57,34 +57,14 @@
 喜欢研究钓具背后的原理——鱼钩为什么这样弯、鱼线为什么这样编、鱼竿调性意味着什么。本站即是这些研究的记录与整理。
 
 
-## 四、技术栈
-
-| 项目 | 技术 |
-|------|------|
-| 框架 | [VitePress](https://vitepress.dev/) |
-| 部署 | GitHub Pages |
-| 版本管理 | Git / GitHub |
-| 字体 | 系统默认字体栈 |
-
-本站源码托管于 [GitHub](https://github.com/ulnae/ulnae.github.io)，欢迎 Star 与 PR。
-
-
-## 五、意见反馈
+## 四、意见反馈
 
 - 发现内容有误或有补充建议？请提 [Issue](https://github.com/ulnae/ulnae.github.io/issues/new)
 - 想直接编辑某页内容？点击页面底部「在 GitHub 上编辑此页」即可提交 PR
 - 欢迎在 Issue 中讨论钓具选型、鱼类分类等话题
 
 
-## 六、联系方式
-
-| 平台 | 链接 |
-|------|------|
-| GitHub | [@ulnae](https://github.com/ulnae) |
-| 掘金 | [@ulnae](https://juejin.cn/user/3650034336020430) |
-
-
-## 七、许可
+## 五、许可
 
 本站内容基于 [MIT License](https://github.com/ulnae/ulnae.github.io/blob/main/LICENSE) 发布。
 
