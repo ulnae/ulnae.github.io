@@ -68,4 +68,4 @@
 
 本站内容基于 [MIT License](https://github.com/ulnae/ulnae.github.io/blob/main/LICENSE) 发布。
 
-鱼类图片来源于维基百科（Wikimedia Commons），遵循各自原始许可协议；钓具图片部分来源于维基百科，部分为站内整理。如认为有侵权内容，请通过 Issue 联系删除。
+鱼类图片来源于维基百科（Wikimedia Commons），遵循各自原始许可协议；钓具与鱼漂图片部分来源于维基百科，部分检索自网络公开图片，仅作示意说明之用。如认为有侵权内容，请通过 Issue 联系删除。
